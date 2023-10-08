@@ -1,0 +1,350 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  
+  /* Set the background image URL */
+  background-image: url('backgroung_image.jpg');
+
+  /* Set the background size to cover the entire container */
+  background-size: cover;
+
+  /* Set the background to fixed so it doesn't scroll with the content */
+  background-attachment: fixed;
+
+  /* Set a background color as a fallback */
+  background-color: #f2f2f2;
+  /* You can choose any color */
+
+  /* Set the height to 100% to cover the entire viewport */
+  height: 200vh;
+
+  color: whitesmoke;
+  font-size: 25px;
+  padding-top: 120px;
+  padding: 70px;
+  text-align: middle;
+  font-family: 'Times New Roman', Times, serif;
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: aliceblue;
+  }
+
+  .nav-link {
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+
+  }
+
+  .navbar-brand {
+    padding: 0.6rem 2rem;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  [type=button]:not(:disabled),
+  [type=reset]:not(:disabled),
+  [type=submit]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
+
+  button,
+  select {
+    text-transform: none;
+    color: #f2f2f2;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    color: #f2f2f2;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .bg-body {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+
+
+
+
+
+
+
+  .navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+    --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  }
+
+  .breif {
+    font-size: 9px;
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+}
+
+.second-background-image {
+  /* Set the background image URL */
+  background-image: url('2ndbg.jpeg');
+
+  /* Set the background size to cover the entire container */
+  background-size: cover;
+
+  /* Set the background to fixed so it doesn't scroll with the content */
+  background-attachment: fixed;
+
+  /* Set a background color as a fallback */
+  background-color: #f2f2f2;
+  /* You can choose any color */
+
+  /* Set the height to 100% to cover the entire viewport */
+  height: 900vh;
+
+  color: whitesmoke;
+  font-size: 25px;
+  padding-top: 120px;
+  padding: 70px;
+  text-align: middle;
+  font-family: 'Times New Roman', Times, serif;
+
+  .Title2 {}
+   font-size: 25px;
+   font-weight: 200;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+   .Rocketdata1{
+    padding-top: 5px;
+    font-size: 15px;
+    padding-bottom: 5px;
+   }
+    
+   
+
+   .Rockima{
+    padding-top: 20px;
+    padding-bottom: 30px;
+   }
+   
+   .Rockima1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+   }
+   .Rocketdata2{
+    padding-top: 3px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .Link1{
+      color: #f2f2f2;
+      padding-left: 100px;
+      font-size: 20px; 
+      padding-bottom: 30px;
+      padding-top: 300px;
+    }
+   .Link{
+    color: #f2f2f2;
+       padding-left: 100px; 
+      font-size: 20px; 
+      padding-bottom: 30px;
+    }
+    .Link3{
+      color: #f2f2f2;
+         /* padding-left: 100px;  */
+        font-size: 23px; 
+        padding-bottom: 30px;
+      }
+   .Rockima2{
+    image-resolution: 3000dpi;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+   }
+    .Rockima3{
+      image-resolution: 3000dpi;
+      height: 300px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .Rockima4{
+      image-resolution: 3000dpi;
+      height: 300px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+  .Link2{
+    color: #f2f2f2;
+      padding-left: 100px;
+      font-size: 20px; 
+      padding-bottom: 30px;
+  }
+  .Wormholesvideo{
+    height: 350px;
+    width: 650px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.Thirdbackground{
+  /* Set the background image URL */
+  background-image: url('backgroung_image.jpg');
+
+  /* Set the background size to cover the entire container */
+  background-size: cover;
+
+  /* Set the background to fixed so it doesn't scroll with the content */
+  background-attachment: fixed;
+
+  /* Set a background color as a fallback */
+  background-color: #f2f2f2;
+  /* You can choose any color */
+
+  /* Set the height to 100% to cover the entire viewport */
+  height: 900vh;
+
+
+  color: whitesmoke;
+  font-size: 25px;
+  padding-top: 120px;
+  padding: 70px;
+  text-align: middle;
+  font-family: 'Times New Roman', Times, serif;
+   
+
+
+    body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+
+
+/* Apply a background color and set font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content area */
+
+
+/* Style each place section */
+.place {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style place images */
+.place img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Style place headings and paragraphs */
+.place h2 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.place p {
+    color: #555;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
+
+
+
